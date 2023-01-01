@@ -1,0 +1,10 @@
+-- start mongo in docker
+
+docker run --name mongo -d mongo:latest
+
+
+-- start kafka in local
+
+I:\kafka-2.8.0>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+I:\kafka-2.8.0>bin\windows\kafka-server-start.bat config\server.properties
